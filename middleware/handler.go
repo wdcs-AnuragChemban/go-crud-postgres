@@ -16,8 +16,8 @@ import (
 )
 
 type response struct {
-	Id int64 `json:"id",omitempty`
-	Message string `json:"message",omitempty`
+	Id int64 `json:"id"`
+	Message string `json:"message"`
 }
 
 
